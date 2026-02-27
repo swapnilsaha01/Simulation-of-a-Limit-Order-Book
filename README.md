@@ -90,9 +90,6 @@ The queue remained strictly positive throughout the simulation horizon.
 ## Author
 
 **Swapnil Saha**
-MSc Data Science, Madras School of Economics
-
----
 
 ## Notes
 This is an educational simulation and does **not** represent a production-grade market microstructure model.
