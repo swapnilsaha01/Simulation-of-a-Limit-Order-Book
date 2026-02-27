@@ -19,9 +19,9 @@ Modern electronic markets exhibit stochastic order arrivals that can be approxim
 
 **Arrival intensities:**
 
-* Buy limit orders: λ_B = 12 per hour
-* Sell limit orders: λ_S = 15 per hour
-* Market sell orders: λ_M = 8 per hour
+* Buy limit orders: $λ_B = 12$ per hour
+* Sell limit orders: $λ_S = 15$ per hour
+* Market sell orders: $λ_M = 8$ per hour
 
 **Order size distribution:**
 
@@ -41,9 +41,8 @@ Q(0) = 20
 
 Inter-arrival times are generated using the inverse transform method:
 
-[
-T = -\frac{1}{\lambda}\ln(U), \quad U \sim \text{Uniform}(0,1)
-]
+$$T = -\frac{1}{\lambda}\ln(U), \quad U \sim \text{Uniform}(0,1)$$
+
 
 Separate Poisson streams are simulated for:
 
@@ -66,9 +65,9 @@ Discrete inverse transform is used:
 
 The best bid evolves as:
 
-[
+$$
 Q(t) = Q(0) + \sum \text{Buy Sizes} - \sum \text{Market Sell Sizes}
-]
+$$
 
 Rules:
 
