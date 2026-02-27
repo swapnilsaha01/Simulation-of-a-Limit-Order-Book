@@ -19,9 +19,9 @@ Modern electronic markets exhibit stochastic order arrivals that can be approxim
 
 **Arrival intensities:**
 
-* Buy limit orders: λB = 12 per hour
-* Sell limit orders: λS = 15 per hour
-* Market sell orders: λM = 8 per hour
+* Buy limit orders: λ_B = 12 per hour
+* Sell limit orders: λ_S = 15 per hour
+* Market sell orders: λ_M = 8 per hour
 
 **Order size distribution:**
 
